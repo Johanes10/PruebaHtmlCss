@@ -1,0 +1,190 @@
+body{
+    background-image: url(./Images/Guatpé-inicio.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 80vh;
+    min-height: 10vh;
+    box-sizing:border-box;
+}
+.menu{
+    height: 2.5rem;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 85vh;
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5% 0 45%;
+    font-size: x-large;
+}
+.telefono{
+    display: flex;
+    color: white;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+.reserva{
+    background-color: white;
+    text-align: center;
+    position:fixed;
+    top: 85vh;
+    width: 70vw;
+    height: 10vh;
+    border-radius: 5px;
+    z-index: 2;
+    color: black;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;}
+.reserva p{
+    color: #6A97AC;
+}
+.seccion-lugares{
+    display: flex;
+    gap: 5rem;
+    text-align: center;
+    padding: 15px;
+}
+.seccion-lugares img{
+    width:80% ;
+    height: 90;
+}
+.lugar{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.seccion1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    width: 80vw;
+    z-index: 1;
+    font-family: cursive;
+    color: black;
+}
+iframe{
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    display: flex;
+    z-index: 1;
+    margin-top: 2rem;
+
+}
+footer{
+    min-height: 7vh;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.25)  ;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    
+}
+.redes{
+    background-color: aliceblue;
+    display: flex;
+    margin-top: 42rem;
+    gap:0.5rem;
+}
+.redes img{
+    height: 25px;
+}
+.lugar:hover{
+    transform: scale(1.2);
+}
+.reserva:hover{
+    transform: scale(1.2);
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* CSS */
+.button-17 {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+  margin: 0 47px 0 0;
+}
+
+.button-17:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+.button-17:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button-17:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+.button-17:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+.bh1{
+    margin: 0 0 0 -15%;
+}
